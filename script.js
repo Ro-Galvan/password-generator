@@ -15,15 +15,14 @@ function generatePassword() {
 
   // return 
   // }
-
-  var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+ // criteria 
+  var lowercase = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&'()*+,-./:;<=>?@[^_`{|}~";
+  // var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  // var numbers = "0123456789";
+  // var specharactc = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
   var generatePassword = "";
 
-  var lowercase = "abcdefghijklmnopqrstuvwxyz";
-  var numbers = "0123456789";
-  var specharactc = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-
-
+// Prompts
   var lowercaseLetters = prompt("Would you like to include lowercase characters?");
   var uppercase = prompt("Would you like to include uppercase characters?");
   var numbers = prompt("Would you like to include numbers?");
