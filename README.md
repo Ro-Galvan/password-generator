@@ -18,4 +18,4 @@ This takes the hassle out of thinking of a password and if **all** the options a
 
 # Visual
 
-![Website Overview](./assets/for-readme.jpg)
+![Website Overview](./Screenshot.jpg)
