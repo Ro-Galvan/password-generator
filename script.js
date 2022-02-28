@@ -11,6 +11,7 @@ function generatePassword() {
     return "";
   }
 
+  generatePassword = "";
   // if confirm("Press a button!\nEither OK or Cancel.");
 
   // return 
@@ -20,7 +21,7 @@ function generatePassword() {
   // var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   // var numbers = "0123456789";
   // var specharactc = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-  var generatePassword = "";
+  
 
 // Prompts
   var lowercaseLetters = prompt("Would you like to include lowercase characters?");
@@ -38,22 +39,6 @@ function generatePassword() {
 
   return genPassword;
 }
-
-// //
-// function generatePassword() {
-//   var type = prompt("Would you like to include lowercase characters
-//   ?");
-
-//   if (type != null) {
-
-//   }
-
-
-
-
-
-
-
 
 // Write password to the #password input
 function writePassword() {
