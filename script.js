@@ -3,15 +3,22 @@ var generateBtn = document.querySelector("#generate");
 
 //added a function and variable since there wasn't one
 function generatePassword() {
-  var count = Number(prompt("Please enter the amount of characters, between 8 - 128, that you would like in your password."));
-  console.log(count);
+  var count = Number(prompt("Please enter the number of characters, between 8 - 128, that you would like in your password."));
+  
   if (count < 8 || count >128){
     alert("Out of range.")
 
     return "";
   }
 
+  // if confirm("Press a button!\nEither OK or Cancel.");
+
+  // return 
+  // }
+
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var generatePassword = "";
+
   var lowercase = "abcdefghijklmnopqrstuvwxyz";
   var numbers = "0123456789";
   var specharactc = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
@@ -24,8 +31,8 @@ function generatePassword() {
   var genPassword = "";
 
   for (var i = 0; i < count; i++) {
-    var random = Math.floor(Math.random() * letters.length);
-    genPassword += letters[random];
+    var random = Math.floor(Math.random() * lowercase.length);
+    genPassword += lowercase[random];
   }
 
   // console.log(genPassword);
